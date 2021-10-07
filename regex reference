@@ -9,7 +9,7 @@ Python Regex reference Cheat Sheet
 \s      - Whitespace (space, tab, newline)
 \S      - Not Whitespace (space, tab, newline)
 
-\b      - Word Boundary
+\b      - Word Boundary (match the exact spelling of the word)
 \B      - Not a Word Boundary
 ^       - Beginning of a String
 $       - End of a String
