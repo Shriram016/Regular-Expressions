@@ -15,7 +15,7 @@ Python Regex reference Cheat Sheet
 $       - End of a String
 
 
-[]      - Matches Characters in brackets
+[]      - Matches Characters in brackets (any of the chars in brackets)
 [^ ]    - Matches Characters NOT in brackets
 |       - Either Or
 ( )     - Group
@@ -26,3 +26,8 @@ Quantifiers:
 ?       - 0 or One
 {3}     - Exact Number
 {3,4}   - Range of Numbers (Minimum, Maximum)
+
+
+# Add variables in regex
+
+re.findall(var+'\d',mystr)
