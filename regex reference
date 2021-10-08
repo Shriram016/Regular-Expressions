@@ -20,6 +20,9 @@ $       - End of a String
 |       - Either Or
 ( )     - Group
 
+
+[(+*)]  - Special characters become literal inside a set, so this matches (, +, *, or )
+
 Quantifiers:
 *       - 0 or More
 +       - 1 or More
